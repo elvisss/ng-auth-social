@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-auth-social"
+    }
+  },
+  "defaultProject": "ng-auth-social",
+  "cli": {
+    "analytics": "00792d60-1cc1-4836-b36c-8a449e0d366a"
+  }
 }
